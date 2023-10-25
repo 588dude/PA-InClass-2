@@ -1,0 +1,50 @@
+/* Using CSS to add an orange border around the content */
+.content-container {
+  border: 2px solid orange;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Orange border around text */
+p.one,
+p.two {
+  border: 2px solid orange;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Orange border around buttons */
+.button {
+  border: 2px solid orange;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+/* Optional: Center the buttons */
+.center-button {
+  text-align: center;
+}
+
+.image-container {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+button {
+  width: 100%;
+}
+
+.centerContent {
+  width: 33%;
+  align-items: center;
+  text-align: center;
+}
+
+.hideMe {
+  visibility: hidden;
+}
